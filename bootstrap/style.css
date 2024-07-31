@@ -1,0 +1,31 @@
+/*body*/
+body {
+    background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
+}
+
+
+
+.bg-body-tertiary {
+    background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
+}
+.navbar-brand img {
+    width: 100%;
+    border-radius: 25%;
+}
+.navbar-brand {
+    width: 80px;
+}
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+/*medias queries*/
+/*Desktop*/
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+

@@ -1,0 +1,198 @@
+/*reset*/
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+/*body*/
+body {
+    background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg)
+}
+
+/*header*/
+.bg-body-tertiary {
+    background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
+}
+.navbar-brand img {
+    width: 100%;
+    border-radius: 25%;
+}
+.navbar-brand {
+    width: 80px;
+}
+.navbar-nav a {
+    color: white;
+    font-weight: 600;
+}
+
+/* TODO ESTE CSS ES DEL NAV HECHO SIN BOOTSTRAP
+.nav-container {
+    display: flex;
+}
+.logo img {
+    width: 100%;
+    color: rgba(135,44,41,255);
+    border-radius: 20%;
+}
+.logo {
+    width: 90px;
+    margin: 5px;
+}
+.menu-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+.menu {
+    width: 100%;
+}
+.menu-nav li {
+    list-style-type: none;
+    margin: 0 25px;
+}
+.menu-nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+*/
+
+
+/*main*/
+/*archivo html index*/
+.title-principal {
+    font-family: brandon-grotesque, sans-serif;
+    color: white;
+}
+.title-principal {
+    display: flex;
+    justify-content: center;
+}
+.gym-picture {
+    width: 100%;
+    /*width: 900px;*/
+}
+.gym-picture img {
+    width: 100%;
+    max-height: 600px;
+}
+.title-h3 {
+    font-family: cursive;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    color: white;
+}
+.online-shop {
+    display: flex;
+    justify-content: space-between;
+}
+.picture-shop p {
+    
+    color: white;
+}
+.picture-shop {
+    width: 250px;
+}
+.picture-shop img {
+    width: 100%;
+}
+.activities-info {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    display: block;
+    border-radius: 50px;
+}
+.button:hover {
+    background-color: gray;
+    color: white;
+}
+p {
+    font-family: cursive;
+}
+
+/*archivo html activities*/
+.picture-up {
+    display: flex;
+    justify-content: space-around;
+}
+.picture-down {
+    display: flex;
+    justify-content: space-around;
+}
+.text-info {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text-info p {
+    width: 45%;
+    text-align: justify;
+    color: white;
+}
+
+/*archivo html us*/
+.picture-horizontal {
+    width: 600px;
+}
+.picture-horizontal img {
+    width: 100%;
+}
+.picture-vertical {
+    width: 500px;
+
+}
+.picture-vertical img {
+    width: 100%;
+}
+.text-gym p {
+    color: white;
+}
+
+/*footer*/
+.footer-container{
+    background-color: rgb(111, 38, 38);
+}
+.footer-container p {
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+}
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px;
+}
+.footer-img img {
+    width: 2%;
+    display: flex;
+    justify-content: end;
+    margin: 3px;
+}
+
+
+
+/*medias queries*/
+/*Mobile*/
+@media only screen and (max-width: 500px) {
+    .navbar-brand img {
+        border-radius: 100%;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    .navbar-brand img {
+        border-radius: 50%;
+    }
+}
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}

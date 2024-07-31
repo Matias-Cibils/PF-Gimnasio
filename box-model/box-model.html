@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Boxmodel | CH-Sem3</title>
+</head>
+<body>
+    <header class="barra-nav">
+        <h1>Boxmodel</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Position</a></li>
+                <li><a href="./display.html">display</a></li>
+                <li><a href="./boxmodel.html">Boxmodel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- Ejemplo de box-model -->
+        <section> 
+            <article class="bloque">
+                <h2 class="centro">Etiquetas en bloque</h2>
+                <p>Estas etiquetas son las que ocupan el 100% de la pantalla. Esta configuración viene por default (incluye su propio padding y margin) y nosotros podremos modificarla usando el "reset".
+                Para conocer o ver sus estilos originales podemos usar el "inspeccionar" en el navegador, mostrará su "display:block"</p>
+                <button class="color-btn" onclick="window.location.href ='https://developer.mozilla.org/es/docs/Glossary/Block-level_content'">Ver etiquetas en bloque</button>
+            </article>
+            <article class="bloque">
+                <h2 class="centro">Etiquetas en Linea</h2>
+                <p class="centro">Estas etiquetas solo ocupan el espacio de su contenido, por ejemplo, la etiqueta "span" es un contenedor en línea, no ocupa el 100% de pantalla pero ocupa el ancho de su contenido <br>
+                Para conocer o ver sus estilos originales podemos usar el "inspeccionar" en el navegador, mostrará su "display:inline"
+                </p>
+                <button class="color-btn">Contenido de un elemento en línea</button>
+                <button class="color-btn" onclick="window.location.href ='https://developer.mozilla.org/es/docs/orphaned/Web/HTML/Inline_elements'">Ver etiquetas en bloque</button>
+            </article>
+            <h2 class="centro">🤝 Inline-block 🤝</h2>
+            <article>
+                <h3 class="centro margin-k"> EJEMPLOS </h3>
+                <div>
+                    <h4 class="centro margin-k">Padding - Relleno</h4>
+                    <p class="centro">Refiere al espacio entre el contenido y el borde</p>
+                    <div class="cont-img cont-padding">
+                        <img src="../assets/coder.png" alt="logo">
+                    </div>
+                </div>
+                <div>
+                    <h4 class="centro">Margin</h4>
+                    <p class="centro">Refiere al espacio entre el borde y el elemento que siga-antecede</p>
+                    <div class="cont-img bg-bm cont-margin">
+                    <img src="../assets/coder.png" alt="logo">
+                    </div>
+                </div>
+                <div>
+                    <h4 class="centro">Modificando display a un elemento en bloque</h4>
+                    <div class="cont-img">
+                        <img src="../assets/coder.png" alt="logo">
+                    </div>
+                    <div class="cont-img">
+                        <img src="../assets/coder.png" alt="logo">
+                    </div>
+                </div>        
+            </article>
+        </section>
+        <section>   
+            <article>
+                <h2 class="titulo centro">Aplicando box model</h2>
+                <div class="cont">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto rerum labore perferendis ab itaque iure possimus, officia necessitatibus voluptatibus illo eveniet corporis vero nulla id nihil? Nisi, facere illo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto rerum labore perferendis ab itaque iure possimus, officia necessitatibus voluptatibus illo eveniet corporis vero nulla id nihil? Nisi, facere illo.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="pie">
+        <p>Kath - Coderhouse | Semana 3 - Position, Box Model & Flexbox</p>
+    </footer>
+</body>
+</html>
