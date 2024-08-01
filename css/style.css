@@ -98,6 +98,7 @@ body {
 .activities-info {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 .button {
     display: block;
@@ -180,6 +181,9 @@ p {
 @media only screen and (max-width: 500px) {
     .navbar-brand img {
         border-radius: 100%;
+    }
+    .activities-info {
+        display: block;
     }
 }
 /*Tablet*/
