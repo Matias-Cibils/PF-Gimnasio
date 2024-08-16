@@ -1,1 +1,12 @@
-@import './cabecera'
+//Reset
+@import './config/vars';
+@import './config/mixin';
+
+//Layout
+@import './cabecera';
+@import './cont-principal';
+@import './pie';
+
+
+//Media queries
+@import './layout/mq'

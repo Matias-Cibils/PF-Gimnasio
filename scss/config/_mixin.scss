@@ -1,0 +1,18 @@
+//mixin sin parametros
+//@mixin nombre(bloque de codigo que siempre reutilizo)
+@mixin alineacion-centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+//mixin con argumentos
+@mixin size-container($m, $p) {
+    margin: $m;
+    padding: $p;
+}
+
+/*
+font-family: 'roboto';
+text-align: center;
+*/

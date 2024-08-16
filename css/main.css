@@ -1,3 +1,23 @@
+.m-instagram {
+  color: #de4964;
+}
+
+.m-facebook {
+  color: #304980;
+}
+
+.m-twitter {
+  color: #00aced;
+}
+
+.title-principal {
+  color: #efe57d;
+}
+
+/*
+font-family: 'roboto';
+text-align: center;
+*/
 .head-container .bg-body-tertiary {
   background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
 }
@@ -11,6 +31,11 @@
 .head-container .bg-body-tertiary .navbar-nav a {
   color: white;
   font-weight: 600;
+}
+
+.container {
+  margin: 0;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
