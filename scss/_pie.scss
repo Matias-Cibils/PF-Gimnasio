@@ -1,0 +1,22 @@
+/*footer*/
+.footer-container {
+    background-image: url(https://i.pinimg.com/564x/86/25/79/862579752e579d12446db86c3a15a18f.jpg);
+    .footer-container p {
+        font-family: cursive;
+        color: white;
+        font-size: 17px;
+    }
+    .footer-img {
+        .footer-img a {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            .footer-img a img {
+                width: 2%;
+                display: flex;
+                justify-content: end;
+                margin: 3px;
+            }
+        }
+    }
+}
