@@ -1,17 +1,3 @@
-//Maps (sass)
-$rrss: (
-    instagram: #de4964,
-    facebook: #304980,
-    twitter: #00aced,
-);
-
-//   redes      colors
-@each $redes, $colors in $rrss {
-    .m-#{$redes} {
-        color: $colors;
-    }
-}
-
 //Maps-GET ($map, $key)
 $estilos: (
     primary: #efe57d,
@@ -20,5 +6,5 @@ $estilos: (
 );
 
 .title-principal {
-    color: map-get($estilos, primary);
+    color: map-get($estilos, secondary);
 }

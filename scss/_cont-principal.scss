@@ -2,8 +2,7 @@
 /*main*/
 .primary-container {
     .title-principal {
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         font-family: brandon-grotesque, sans-serif;
         color: white;
     }
@@ -32,14 +31,12 @@
             width: 100%;
         }
         .picture-shop p {
-            display: flex;
-            justify-content: center;
+            @include flex-center;
             margin: 10px;
             color: white;
         }
     }
 }
-
 .activities-info {
     display: flex;
     justify-content: space-around;
@@ -86,15 +83,13 @@
 .horizontal {
     .picture-horizontal {
         width: 100%;
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         .picture-horizontal img {
             width: 600px;
         }
     }
     .text-gym {
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         .text-gym p {
             width: 50%;
             color: white;
