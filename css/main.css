@@ -24,21 +24,23 @@ body {
 
 /*archivo index*/
 /*main*/
-.primary-container .title-principal {
+.title-principal {
   display: flex;
   justify-content: center;
   font-family: brandon-grotesque, sans-serif;
   color: white;
 }
-.primary-container .gym-picture {
+
+.gym-picture {
   width: 100%;
   /*width: 900px;*/
 }
-.primary-container .gym-picture .gym-picture img {
+.gym-picture .gym-picture img {
   width: 100%;
   max-height: 600px;
 }
-.primary-container .title-h3 {
+
+.title-h3 {
   font-family: cursive;
   margin-bottom: 40px;
   margin-top: 25px;
@@ -103,51 +105,56 @@ body {
 }
 
 /*archivo us*/
-.horizontal .picture-horizontal {
+.picture-horizontal {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.horizontal .picture-horizontal .picture-horizontal img {
+.picture-horizontal img {
   width: 600px;
 }
-.horizontal .text-gym {
+
+.text-gym {
   display: flex;
   justify-content: center;
 }
-.horizontal .text-gym .text-gym p {
+.text-gym p {
   width: 50%;
   color: white;
+  font-family: cursive;
 }
 
-.vertical .picture-vertical {
+.picture-vertical {
   width: 100%;
   display: flex;
 }
-.vertical .picture-vertical .picture-vertical img {
+.picture-vertical img {
   width: 350px;
 }
-.vertical .picture-vertical .picture-vertical p {
+.picture-vertical p {
   width: 50%;
   align-self: center;
   margin-left: 20px;
+  color: white;
+  font-family: cursive;
 }
 
 /*footer*/
 .footer-container {
   background-image: url(https://i.pinimg.com/564x/86/25/79/862579752e579d12446db86c3a15a18f.jpg);
 }
-.footer-container .footer-container p {
+.footer-container p {
   font-family: cursive;
   color: white;
-  font-size: 17px;
+  margin: 10px;
+  margin-top: 10px;
 }
-.footer-container .footer-img .footer-img a {
+.footer-container .footer-img a {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
-.footer-container .footer-img .footer-img a .footer-img a img {
+.footer-container .footer-img a img {
   width: 2%;
   display: flex;
   justify-content: end;
