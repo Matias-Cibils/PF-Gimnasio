@@ -1,5 +1,9 @@
-.title-principal {
-  color: #efe435;
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
 }
 
 /*header*/
@@ -9,7 +13,7 @@
 .head-container .bg-body-tertiary .navbar-brand {
   width: 80px;
 }
-.head-container .bg-body-tertiary .navbar-brand .navbar-brand img {
+.head-container .bg-body-tertiary .navbar-brand img {
   width: 100%;
   border-radius: 25%;
 }

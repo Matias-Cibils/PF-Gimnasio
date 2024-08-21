@@ -5,19 +5,19 @@
 
 /*body*/
 body {
-    background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg)
+    background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
 }
 
 /*header*/
 .bg-body-tertiary {
     background-image: url(https://i.pinimg.com/564x/82/cc/f2/82ccf2552f8c5f579802c8c4bee1c43d.jpg);
 }
+.navbar-brand {
+    width: 80px;
+}
 .navbar-brand img {
     width: 100%;
     border-radius: 25%;
-}
-.navbar-brand {
-    width: 80px;
 }
 .navbar-nav a {
     color: white;
