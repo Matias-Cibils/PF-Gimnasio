@@ -6,11 +6,10 @@
     color: white;
 }
 .gym-picture {
-    width: 100%;
-    /*width: 900px;*/
-    .gym-picture img {
+    img {
         width: 100%;
-        max-height: 600px;
+        max-width: 100%;
+        height: auto;
     }
 }
 .title-h3 {
@@ -27,10 +26,11 @@
         img {
             width: 100%;
         }
-        .picture-shop p {
+        p {
             @include flex-center;
             margin: 10px;
             color: white;
+            font-family: cursive;
         }
     }
 }
@@ -42,13 +42,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        .activities-picture img {
+        img {
             width: 220px;
         }
-        .activities-picture button {
+        .button {
             display: block;
             border-radius: 50px;
-            .button a {
+            a {
                 text-decoration: none;
                 color: black;
             }
@@ -62,8 +62,12 @@
 .container {
     .col-md-6 {
         text-align: center;
-        .col-md-6 img {
+        img {
             width: 250px;
+        }
+        p {
+            color: white;
+            font-family: cursive;
         }
         .collapse-toggle .button-description {
             border-radius: 50px;
@@ -79,7 +83,7 @@
     width: 100%;
     @include flex-center;
     img {
-        width: 600px;
+        width: 500px;
     }
 }
 .text-gym {
