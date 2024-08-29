@@ -4,6 +4,7 @@
     @include flex-center;
     font-family: brandon-grotesque, sans-serif;
     color: white;
+    margin: 15px;
 }
 .gym-picture {
     img {
@@ -28,7 +29,7 @@
         }
         p {
             @include flex-center;
-            margin: 10px;
+            margin: 15px;
             color: white;
             font-family: cursive;
         }
@@ -48,6 +49,7 @@
         .button {
             display: block;
             border-radius: 50px;
+            margin: 5px;
             a {
                 text-decoration: none;
                 color: black;
@@ -71,6 +73,7 @@
         }
         .collapse-toggle .button-description {
             border-radius: 50px;
+            margin: 5px;
             &:hover {
                 background-color: gray;
                 color: white;
@@ -88,6 +91,7 @@
 }
 .text-gym {
     @include flex-center;
+    margin: 20px;
     p {
         width: 50%;
         color: white;
@@ -103,7 +107,7 @@
     p {
         width: 50%;
         align-self: center;
-        margin-left: 20px;
+        margin-left: 30px;
         color: white;
         font-family: cursive;
     }

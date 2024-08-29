@@ -1,12 +1,10 @@
 /*medias queries*/
-/*Mobile*/
-@media only screen and (max-width: 500px) {
-    .navbar-brand img {
-        border-radius: 100%;
-    }
-    .activities-info {
-        display: flex;
-        flex-direction: column;
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
     }
 }
 /*Tablet*/
@@ -16,17 +14,22 @@
     }
     .picture-vertical {
         display: block;
+        p {
+            margin: 20px;
+        }
     }
     .activities-info {
         display: flex;
         flex-direction: column;
     }
 }
-/*Desktop*/
-@media only screen and (min-width: 961px) {
-    .navbar-expand-lg .navbar-nav {
-        flex-direction: row;
-        width: 100%;
-        justify-content: flex-end;
+/*Mobile*/
+@media only screen and (max-width: 500px) {
+    .navbar-brand img {
+        border-radius: 100%;
+    }
+    .activities-info {
+        display: flex;
+        flex-direction: column;
     }
 }
