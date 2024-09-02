@@ -107,17 +107,15 @@ body {
 
 /*archivo us*/
 .picture-horizontal {
-  width: 100%;
+  width: 600px;
   display: flex;
   justify-content: center;
 }
 .picture-horizontal img {
-  width: 500px;
+  width: 100%;
 }
 
 .text-gym {
-  display: flex;
-  justify-content: center;
   margin: 20px;
 }
 .text-gym p {
@@ -196,6 +194,12 @@ body {
   .activities-info {
     display: flex;
     flex-direction: column;
+  }
+  .picture-vertical {
+    display: block;
+  }
+  .picture-vertical p {
+    margin: 20px;
   }
 }
 
