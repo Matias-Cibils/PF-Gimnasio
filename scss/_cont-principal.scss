@@ -82,6 +82,34 @@
     }
 }
 /*archivo us*/
+.tamaño {
+    img {
+        width: 100%;
+    }
+    p {
+        color: white;
+        font-family: cursive;
+        
+    }
+} 
+.derecha {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    img {
+        width: 500px;
+    }
+}
+.izquierda {
+    display: flex;
+    align-items: center;
+    img {
+        max-width: 40%;
+        margin-right: 10px;
+    }
+}
+
+/*
 .picture-horizontal {
         width: 550px;
         @include flex-center;
@@ -112,3 +140,4 @@
         font-family: cursive;
     }
 }
+*/
