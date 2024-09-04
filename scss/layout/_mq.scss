@@ -28,9 +28,15 @@
     }
     .izquierda {
         margin: 20px;
+        img {
+            max-width: 50%;
+        }
     }
     .derecha {
         align-items: center;
+        img {
+            max-width: 70%;
+        }
     }
 }
 /*Mobile*/
@@ -54,5 +60,14 @@
     }
     .derecha {
         align-items: center;
+        img {
+            max-width: 70%;
+        }
+    }
+    .izquierda {
+        margin: 20px;
+        img {
+            max-width: 50%;
+        }
     }
 }

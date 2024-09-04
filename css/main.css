@@ -118,10 +118,11 @@ body {
 .derecha {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .derecha img {
-  width: 500px;
+  max-width: 50%;
+  height: auto;
 }
 
 .izquierda {
@@ -218,8 +219,14 @@ body {
   .izquierda {
     margin: 20px;
   }
+  .izquierda img {
+    max-width: 50%;
+  }
   .derecha {
     align-items: center;
+  }
+  .derecha img {
+    max-width: 70%;
   }
 }
 /*Mobile*/
@@ -243,6 +250,15 @@ body {
   }
   .derecha {
     align-items: center;
+  }
+  .derecha img {
+    max-width: 70%;
+  }
+  .izquierda {
+    margin: 20px;
+  }
+  .izquierda img {
+    max-width: 50%;
   }
 }
 
