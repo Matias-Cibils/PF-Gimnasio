@@ -134,38 +134,6 @@ body {
   margin-right: 10px;
 }
 
-/*
-.picture-horizontal {
-        width: 550px;
-        @include flex-center;
-        img {
-            width: 100%;
-    }
-}
-
-.text-gym {
-    margin: 20px;
-    p {
-        width: 50%;
-        color: white;
-        font-family: cursive;
-    }
-}
-.picture-vertical {
-    width: 100%;
-    display: flex;
-    img {
-        width: 350px;
-    }
-    p {
-        width: 50%;
-        align-self: center;
-        margin-left: 30px;
-        color: white;
-        font-family: cursive;
-    }
-}
-*/
 /*footer*/
 .footer-container {
   background-image: url(https://i.pinimg.com/564x/86/25/79/862579752e579d12446db86c3a15a18f.jpg);
